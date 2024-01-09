@@ -57,7 +57,7 @@ class DFPlayer:
                 retry=False
         return in_bytes
      
-    def suivante(self):  #next mot réservé
+    def Next(self):  #next mot réservé
         self.send_cmd(0x01,0,0)
     
     def previous(self):  #next mot réservé
